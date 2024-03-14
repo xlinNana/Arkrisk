@@ -282,6 +282,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 958eae264881c554d92ed8ea32589020, type: 3}
       insertIndex: -1
       addedObject: {fileID: 438737758}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 958eae264881c554d92ed8ea32589020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 438737761}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 958eae264881c554d92ed8ea32589020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 438737762}
   m_SourcePrefab: {fileID: 100100000, guid: 958eae264881c554d92ed8ea32589020, type: 3}
 --- !u!1 &438737746 stripped
 GameObject:
@@ -698,7 +704,8 @@ MonoBehaviour:
     colliderCollisionConstraint:
       mode: 1
       friction: 0.1
-      colliderList: []
+      colliderList:
+      - {fileID: 438737761}
     selfCollisionConstraint:
       selfMode: 0
       surfaceThickness:
@@ -742,69 +749,69 @@ MonoBehaviour:
   serializeData2:
     selectionData:
       positions:
-      - x: -0.017611742
-        y: 9.172022
-        z: -0.6931336
-      - x: 0.024861693
-        y: 8.39777
-        z: -1.7968484
-      - x: 0.055956602
-        y: 7.522291
-        z: -2.8474603
-      - x: 0.085571766
-        y: 6.824328
-        z: -3.8920405
-      - x: 0.11269665
-        y: 5.944442
-        z: -5.058984
-      - x: -0.5766876
-        y: 9.323084
-        z: 0.9868556
-      - x: -1.0484447
-        y: 8.552557
-        z: 1.7526367
-      - x: -1.5076401
-        y: 7.8987455
-        z: 2.4491746
-      - x: 0.5766778
-        y: 9.323087
-        z: 0.98685586
-      - x: 0.95060706
-        y: 8.544396
-        z: 1.7971073
-      - x: 1.3241906
-        y: 7.880823
-        z: 2.5344002
-      - x: 0.9720321
-        y: 9.172023
-        z: -0.32674858
-      - x: 1.8476592
-        y: 8.44476
-        z: -0.65394425
-      - x: 2.6688032
-        y: 7.8303785
-        z: -0.9439683
-      - x: 3.5108147
-        y: 7.253335
-        z: -1.2182391
-      - x: 4.2538996
-        y: 6.634145
-        z: -1.448141
-      - x: -0.9720399
-        y: 9.17202
-        z: -0.32674894
-      - x: -1.8050599
-        y: 8.445978
-        z: -0.75293255
-      - x: -2.589298
-        y: 7.831355
-        z: -1.1311715
-      - x: -3.396402
-        y: 7.2522707
-        z: -1.49233
-      - x: -4.085138
-        y: 6.646388
-        z: -1.7953355
+      - x: -0.0052835345
+        y: 2.7516065
+        z: -0.20794009
+      - x: 0.007458508
+        y: 2.519331
+        z: -0.5390545
+      - x: 0.016786993
+        y: 2.2566874
+        z: -0.85423803
+      - x: 0.025671482
+        y: 2.0472984
+        z: -1.1676122
+      - x: 0.033809066
+        y: 1.7833328
+        z: -1.517695
+      - x: -0.17300628
+        y: 2.7969253
+        z: 0.2960567
+      - x: -0.3145335
+        y: 2.565767
+        z: 0.525791
+      - x: -0.452292
+        y: 2.3696237
+        z: 0.7347525
+      - x: 0.17300335
+        y: 2.796926
+        z: 0.29605687
+      - x: 0.285182
+        y: 2.5633187
+        z: 0.5391323
+      - x: 0.39725727
+        y: 2.3642468
+        z: 0.76032007
+      - x: 0.29160962
+        y: 2.751607
+        z: -0.09802462
+      - x: 0.55429775
+        y: 2.5334282
+        z: -0.1961833
+      - x: 0.800641
+        y: 2.3491137
+        z: -0.2831905
+      - x: 1.0532444
+        y: 2.1760006
+        z: -0.36547184
+      - x: 1.2761697
+        y: 1.9902434
+        z: -0.43444228
+      - x: -0.291612
+        y: 2.751606
+        z: -0.09802468
+      - x: -0.54151785
+        y: 2.5337934
+        z: -0.22587977
+      - x: -0.77678955
+        y: 2.3494062
+        z: -0.33935148
+      - x: -1.0189205
+        y: 2.175681
+        z: -0.447699
+      - x: -1.2255414
+        y: 1.9939164
+        z: -0.5386007
       attributes:
       - Value: 1
       - Value: 2
@@ -827,7 +834,7 @@ MonoBehaviour:
       - Value: 2
       - Value: 2
       - Value: 2
-      maxConnectionDistance: 1.4617428
+      maxConnectionDistance: 0.43852252
       userEdit: 1
   gizmoSerializeData:
     always: 0
@@ -1108,7 +1115,8 @@ MonoBehaviour:
     colliderCollisionConstraint:
       mode: 1
       friction: 0.05
-      colliderList: []
+      colliderList:
+      - {fileID: 438737762}
     selfCollisionConstraint:
       selfMode: 0
       surfaceThickness:
@@ -1152,47 +1160,31 @@ MonoBehaviour:
   serializeData2:
     selectionData:
       positions:
-      - x: -0.0000061392784
-        y: 10.569822
-        z: -0.73417675
-      - x: -0.72864497
-        y: 10.306857
-        z: -0.85791147
-      - x: -1.5274351
-        y: 8.668904
-        z: -1.4249353
-      - x: -2.1683245
-        y: 7.3979573
-        z: -1.8983337
-      - x: -2.818113
-        y: 6.1017065
-        z: -2.3750422
-      - x: 0.7286346
-        y: 10.30686
-        z: -0.8579134
-      - x: 1.5274312
-        y: 8.668913
-        z: -1.424938
-      - x: 2.1683254
-        y: 7.3979673
-        z: -1.8983389
-      - x: 2.818122
-        y: 6.1017213
-        z: -2.375047
-      - x: -0.000004529953
-        y: 9.999613
-        z: -1.1527382
-      - x: -0.000002861023
-        y: 8.819599
-        z: -2.5052254
-      - x: -0.00000166893
-        y: 7.7093344
-        z: -3.8264244
-      - x: -0.0000009536743
-        y: 6.5940466
-        z: -5.1310153
+      - x: -0.21859354
+        y: 3.0920572
+        z: -0.2573734
+      - x: -0.45823053
+        y: 2.6006713
+        z: -0.42748058
+      - x: -0.65049744
+        y: 2.219387
+        z: -0.5695001
+      - x: -0.84543407
+        y: 1.8305118
+        z: -0.7125127
+      - x: 0.21859038
+        y: 3.0920582
+        z: -0.257374
+      - x: 0.4582294
+        y: 2.6006737
+        z: -0.42748135
+      - x: 0.6504976
+        y: 2.2193904
+        z: -0.56950164
+      - x: 0.84543645
+        y: 1.8305161
+        z: -0.7125141
       attributes:
-      - Value: 0
       - Value: 1
       - Value: 2
       - Value: 2
@@ -1201,11 +1193,7 @@ MonoBehaviour:
       - Value: 2
       - Value: 2
       - Value: 2
-      - Value: 1
-      - Value: 2
-      - Value: 2
-      - Value: 2
-      maxConnectionDistance: 1.908526
+      maxConnectionDistance: 0.57255787
       userEdit: 1
   gizmoSerializeData:
     always: 0
@@ -1485,7 +1473,8 @@ MonoBehaviour:
     colliderCollisionConstraint:
       mode: 1
       friction: 0.1
-      colliderList: []
+      colliderList:
+      - {fileID: 438737762}
     selfCollisionConstraint:
       selfMode: 0
       surfaceThickness:
@@ -1529,24 +1518,24 @@ MonoBehaviour:
   serializeData2:
     selectionData:
       positions:
-      - x: -0.000004529953
-        y: 9.999613
-        z: -1.1527382
-      - x: -0.000002861023
-        y: 8.819599
-        z: -2.5052254
-      - x: -0.00000166893
-        y: 7.7093344
-        z: -3.8264244
-      - x: -0.0000009536743
-        y: 6.5940466
-        z: -5.1310153
+      - x: -0.0000013411045
+        y: 2.9998841
+        z: -0.34582144
+      - x: -0.000001013279
+        y: 2.64588
+        z: -0.7515676
+      - x: -0.00000047683716
+        y: 2.3128004
+        z: -1.1479276
+      - x: -0.00000011920929
+        y: 1.9782141
+        z: -1.5393045
       attributes:
       - Value: 1
       - Value: 2
       - Value: 2
       - Value: 2
-      maxConnectionDistance: 1.7948966
+      maxConnectionDistance: 0.538469
       userEdit: 0
   gizmoSerializeData:
     always: 0
@@ -1562,6 +1551,38 @@ MonoBehaviour:
       animatedPosition: 0
       animatedAxis: 0
       animatedShape: 0
+--- !u!114 &438737761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438737746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f5338a96461264fb9a1132c8509672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 2.53, z: 0.03}
+  size: {x: 0.2, y: 0.45, z: 2}
+  direction: 1
+  radiusSeparation: 1
+--- !u!114 &438737762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438737746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f5338a96461264fb9a1132c8509672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 2, z: -0.2}
+  size: {x: 0.2, y: 0.5, z: 2}
+  direction: 1
+  radiusSeparation: 1
 --- !u!4 &438913097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7412768062181646713, guid: 958eae264881c554d92ed8ea32589020, type: 3}
