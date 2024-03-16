@@ -227,6 +227,10 @@ PrefabInstance:
       propertyPath: serializeData2.selectionData.positions.Array.data[16].z
       value: -0.29984474
       objectReference: {fileID: 0}
+    - target: {fileID: 8105348567325508016, guid: 9526a4cf8ead13347aa50e195bcdba67, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8244121818345219362, guid: 9526a4cf8ead13347aa50e195bcdba67, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.220572
